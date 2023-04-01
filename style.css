@@ -6,7 +6,7 @@ body{
     height: 100vh;
     background-color: #b3f0ff;
     font-family: cursive;
-    
+    position: relative;
   }
   
   
@@ -16,6 +16,7 @@ body{
     position: relative;
     border: black solid 1px;
     border-radius: 25px;
+    position: absolute;
   }
 
 
@@ -48,7 +49,7 @@ body{
   .btn{
     border:black solid 1px;
     background-color:white ;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     padding: 5px;
     width: 50px;
   }
@@ -64,16 +65,35 @@ body{
 
 
 .list{
-    position:fixed;
+    position:absolute;
     right: 4%;
     top: 4%;
 
-    padding: 10px 60px 65px 60px ;
+    padding: 10px 110px 65px 110px ;
     border: black solid 1px;
     border-radius: 15px;
     background-color: whitesmoke;
-    margin-top: 10px;
+}
+
+.clr{
+    position: absolute;
+    right: 45%;
+    bottom: 5%;
+}
+
+.horizon{
+    display: flex;
+    flex-direction: row;
+    padding-top: 8px;
 
 
+}
+.dltBTn{
+  position: absolute;
+  right: 10%;
+}
 
+.ele{
+  position: absolute;
+  left: 20%;
 }
